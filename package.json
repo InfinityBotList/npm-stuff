@@ -1,6 +1,6 @@
 {
     "name:": "root",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Monorepo for the Infinity Bot List NPM Modules",
     "main": "index.js",
     "author": "Toxic Dev",
@@ -13,6 +13,9 @@
     "scripts": {
         "build:lerna": "lerna exec -- webpack",
         "build:autoposter": "yarn workspace @infinitybots/autoposter run webpack",
+        "build:eslint": "yarn workspace @infinitybots/eslint run webpack",
+        "build:emitter": "yarn workspace @infinitybots/emitter run webpack",
+        "build:logger": "yarn workspace @infinitybots/logger run webpack",
         "build:node-sdk": "yarn workspace @infinitybots/node-sdk run webpack",
         "build:client": "yarn workspace @infinitybots/client run webpack",
         "build:base": "yarn workspaces run build"   
