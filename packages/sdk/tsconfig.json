@@ -1,0 +1,14 @@
+{
+    "files": ["./source/index.ts"],
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "declaration": true,
+        "strict": true,
+        "target": "ES2019",
+        "outDir": "./dist",
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+    }
+  }
