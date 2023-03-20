@@ -116,4 +116,37 @@ const results = await ibl.getUserVotes(USER_ID_HERE);
 console.log(`${results.has_voted}`);
 ```
 
+### Get Bot Info
+Fetch some Information about your bot from our API
+
+| Response               | Description                               | Value                           |
+|----------------------  |:---------------------------------:|----------------------------------------:|
+| bot_id                 | The Bots ID                       | Returns a discord snowflake             |
+| banner                 | The bots card banner on our site  | Returns a image url                     |
+| invite                 | The bots invite link              | Returns a discord client invite url     |
+| library                | Library the bot is made with      | Returns a library (ex: Discord.js)      |
+| staff_bot              | If the bot belongs to ibl staff   | Returns true or false                   |
+| long_desc              | The bots long description         | Returns a large string                  |
+| short_desc             | The bots short description        | Returns a small string                  |
+| extra_links            | The bots links/extra links        | Returns a array of links                |
+| statistics.servers     | The bots server count             | Returns a numerical value               |
+| statistics.shards      | The bots shard count              | Returns a numerical value               |
+| statistics.users       | The bots user count               | Returns a numerical value               |
+| statistics.votes       | The bots upvote count             | Returns a numerical value               |
+
+#### Usage Example
+
+```js
+const { InfinityFetcher } = require("@infinitybots/node-sdk")
+
+const ibl = new InfinityFetcher({
+    auth: "YOUR_BOTS_API_KEY",
+    botID: "YOUR_BOTS_ID"
+});
+
+const results = await ibl.getBotInfo();
+
+console.log(`${results.bot_id}`);
+```
+
 

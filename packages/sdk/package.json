@@ -1,6 +1,6 @@
 {
     "name": "@infinitybots/node-sdk",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "description": "Simple module for interacting with the Infinity Bot List API!",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -32,17 +32,17 @@
 
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/InfinityBotList/node-sdk.git"
+        "url": "git+https://github.com/InfinityBotList/npm-stuff.git"
 
     },
 
     "license": "MIT",
     
     "bugs": {
-        "url": "https://github.com/InfinityBotList/node-sdk/issues"
+        "url": "https://github.com/InfinityBotList/npm-stuff/issues"
     },
 
-    "homepage": "https://github.com/InfinityBotList/node-sdk#readme",
+    "homepage": "https://github.com/InfinityBotList/npm-stuff#readme",
 
     "keywords": [
         "Discord",
