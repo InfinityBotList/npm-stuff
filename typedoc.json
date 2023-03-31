@@ -1,0 +1,19 @@
+{
+    "out": "./docs/",
+    "entryPoints": [
+      "packages/autoposter",
+      "packages/client/src",
+      "packages/logger/src",
+      "packages/emitter/src",
+      "packages/sdk/source"
+    ],
+    "readme": "./README.md",
+    "name": "@infinitybots",
+    "darkHighlightTheme": "dark-plus",
+    "lightHighlightTheme": "light-plus",
+    "githubPages": true,
+    "excludeExternals": false,
+    "excludePrivate": false,
+    "excludeInternal": false,
+    "theme": "default"
+  }

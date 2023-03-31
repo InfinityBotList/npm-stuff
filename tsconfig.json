@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "CommonJS",
+    "target": "ES5",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "lib": ["ES2018"]
+  },
+  "exclude": [
+    "node_modules",
+    "packages/interface",
+    "packages/**/node_modules",
+    "packages/**/dist"
+  ],
+  "include": [
+    "packages/autoposter",
+    "packages/client",
+    "packages/emitter",
+    "packages/eslint",
+    "packages/logger",
+    "packages/sdk"
+  ]
+}

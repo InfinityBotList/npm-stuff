@@ -1,0 +1,25 @@
+# Yarn
+node_modules
+yarn-error.log
+yarn-debug.log
+
+# IDE files
+.vscode
+
+# Testing files
+coverage/
+
+# Unreleased Modules 
+packages/interface
+
+# Node SDK Stuff
+packages/sdk/node_modules
+packages/sdk/package-lock.json
+
+## Ignore Submodules
+packages/autoposter
+packages/client
+packages/emitter
+packages/eslint
+packages/logger
+packages/sdk
