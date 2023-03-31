@@ -1,11 +1,11 @@
 {
     "out": "./docs/",
     "entryPoints": [
-      "packages/autoposter",
-      "packages/client/src",
-      "packages/logger/src",
-      "packages/emitter/src",
-      "packages/sdk/source"
+      "packages/autoposter/src/index.ts",
+      "packages/client/src/index.ts",
+      "packages/logger/src/logger.ts",
+      "packages/emitter/src/index.ts",
+      "packages/sdk/source/index.ts"
     ],
     "readme": "./README.md",
     "name": "@infinitybots",

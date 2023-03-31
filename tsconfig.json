@@ -15,13 +15,5 @@
     "packages/interface",
     "packages/**/node_modules",
     "packages/**/dist"
-  ],
-  "include": [
-    "packages/autoposter",
-    "packages/client",
-    "packages/emitter",
-    "packages/eslint",
-    "packages/logger",
-    "packages/sdk"
   ]
 }
