@@ -6,6 +6,10 @@
     "author": "Toxic Dev",
     "private": true,
 
+    "workspaces": [
+        "packages/*"
+    ],
+
     "scripts": {
         "build:lerna": "lerna exec -- webpack",
         "build:autoposter": "yarn workspace @infinitybots/autoposter run webpack",
@@ -14,12 +18,7 @@
         "build:logger": "yarn workspace @infinitybots/logger run webpack",
         "build:node-sdk": "yarn workspace @infinitybots/node-sdk run webpack",
         "build:client": "yarn workspace @infinitybots/client run webpack",
-        "build:base": "yarn workspaces run build",
-        "build:docs": "typedoc"
-    },
-
-    "dependencies": {
-        "typedoc": "^0.23.28"
+        "build:base": "yarn workspaces run build"
     },
 
     "devDependencies": {
